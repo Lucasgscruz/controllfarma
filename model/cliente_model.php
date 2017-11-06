@@ -1,6 +1,8 @@
 <?php
 /**
 * Model - Lógica da aplicação.
+Carlos Magno
+Lucas Geraldo
 */
 class Cliente{
 	private $nome;

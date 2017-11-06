@@ -1,3 +1,3 @@
 <?php
-header("Location: http://localhost/controllfarma/view/");
+header("Location: http:/controllfarma/view/");
 ?>

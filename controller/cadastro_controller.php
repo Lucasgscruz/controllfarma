@@ -2,6 +2,8 @@
 
 /*
 Controller - 
+Carlos Magno
+Lucas Geraldo
 */
 include('../model/cliente_model.php');
 

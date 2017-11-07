@@ -6,7 +6,36 @@ Lucas Geraldo
 
 
 -->
+
 <!DOCTYPE html>
+<html>
+<head>
+	<title>Cadastrar Cliente</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+		
+</head>
+	<body >
+
+		<div class="container">  
+		  <form id="contact" action="../controller/cadastro_controller.php" method="post">
+		    <h3>Cadastrar Cliente</h3>
+		    <fieldset>
+		      <input placeholder="Nome do cliente" type="text" name="nome" tabindex="1" required autofocus>
+		    </fieldset>
+		    <fieldset>
+		      <input placeholder="CPF do cliente" type="text" name="cpf" tabindex="2" required>
+		    </fieldset>
+		    <fieldset>
+		      <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Enviar</button>
+		    </fieldset>
+		  </form>
+		</div>
+
+	</body>
+</html>
+
+<!-- <!DOCTYPE html>
 <html>
 <head>
 	<title>Cadastrar Cliente</title>
@@ -27,4 +56,4 @@ Lucas Geraldo
 	</div>
 
 </body>
-</html>
+</html> -->
